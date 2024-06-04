@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17.0)
 
-project(reader)
+project(pybind11_examples)
 
 find_package(Python REQUIRED COMPONENTS Interpreter Development.Module)
 
@@ -12,6 +12,5 @@ include_directories(
 
 add_definitions(-DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT)
 
-pybind11_add_module(reader reader.cpp)
-
-set_target_properties(reader PROPERTIES SUFFIX ".so")
+add_subdirectory(inheritance)
+add_subdirectory(callable_property)

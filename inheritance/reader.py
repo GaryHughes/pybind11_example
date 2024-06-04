@@ -1,4 +1,4 @@
-#!/opt/homebrew/bin/python3.12
+#!/usr/bin/python3
 
 from reader import *
 
