@@ -17,3 +17,7 @@ This is an example of implementing an abstract C++ class in [Python](https://www
 # Callable Property
 
 This is an example of exposing a C++ class with a std::function member, exposing this member as a Python property and invoking the propery via Python->C++.
+
+# Inherited Property
+
+This is an example of exposing a derived C++ class with properties defined on the Python type that belong to a C++ base class.
